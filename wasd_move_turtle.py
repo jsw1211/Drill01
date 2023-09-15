@@ -16,3 +16,5 @@ def s_move_turtle():
     turtle.stamp()
     turtle.setheading(270)
     turtle.forward(50)
+def restart():
+    turtle.reset()
