@@ -8,3 +8,7 @@ def w_move_turtle():
     turtle.stamp()
     turtle.setheading(90)
     turtle.forward(50)
+def a_move_turtle():
+    turtle.stamp()
+    turtle.setheading(180)
+    turtle.forward(50)
