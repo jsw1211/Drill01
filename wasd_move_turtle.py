@@ -18,6 +18,8 @@ def s_move_turtle():
     turtle.forward(50)
 def restart():
     turtle.reset()
+
+turtle.shape('turtle')
 turtle.onkey(d_move_turtle, 'd')
 turtle.onkey(w_move_turtle, 'w')
 turtle.onkey(a_move_turtle, 'a')
